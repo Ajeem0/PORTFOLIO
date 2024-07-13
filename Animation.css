@@ -1,0 +1,37 @@
+#photo:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 10px 5px 0px rgb(230 7 7 / 50%)
+    
+}
+
+.first:hover{
+    color: blue;
+    box-shadow: 10px 10px 5px 0px rgb(230 7 7 / 50%);
+    transform: scale(1.1);
+    background-color:#BDECB6;
+}
+#third:hover{
+    background: url(/react.png);
+    background-size: cover;
+    font-size:0rem;
+}
+#fourth:hover{
+    background: url(/node-js.png);
+    background-size: cover;
+    font-size:0rem;
+}
+#tic-toc-toe:hover{
+    transform: scale(1.1);
+    background: url(/Tic-Toc-Toe.png);
+    background-size: cover;
+    color: white;
+    box-shadow: 10px 10px 5px 0px rgba(14, 95, 0, 0.5);
+}
+#Currencyconverter:hover{
+    transform: scale(1.1);
+    background: url(/`currency\ converter.png);
+    background-size: cover;
+    color: lightblue;
+    box-shadow: 10px 10px 5px 0px rgba(14, 95, 0, 0.5);
+}
+
