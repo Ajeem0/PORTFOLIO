@@ -1,6 +1,54 @@
 *{
     padding: 0px;
     margin: 0px;
+    /* font-family: cursive; */
+   
+}
+/* body, body * {
+    font-family: Verdana, Tahoma, sans-serif !important;
+    } */
+ 
+html.sr .header{
+    visibility: hidden;
+}
+html.sr .About{
+    visibility: hidden;
+}
+html.sr .skill{
+    visibility: hidden;
+}
+html.sr .project{
+    visibility: hidden;
+}
+html.sr .more_info{
+    visibility: hidden;
+}
+html.sr .contact{
+    visibility: hidden;
+}
+html.sr #Html{
+    visibility: hidden;
+}
+html.sr #Css{
+    visibility: hidden;
+}
+html.sr #javascript{
+    visibility: hidden;
+}
+html.sr .first{
+    visibility: hidden;
+}
+html.sr #first{
+    visibility: hidden;
+}
+html.sr #second{
+    visibility: hidden;
+}
+html.sr #third{
+    visibility: hidden;
+}
+html.sr #fourth{
+    visibility: hidden;
 }
 header{
     height: 30rem;
@@ -225,8 +273,8 @@ h4{
     display: flex;
     background-color: #faebd7;
     margin: 4rem 0rem 0rem 0rem;
-    height: 15rem;
-    width: 30rem;
+    height: 10rem;
+    width: 20rem;
     justify-content: center;
     align-items: center;
 }
@@ -235,21 +283,57 @@ h4{
     display: flex;
     background-color: #faebd7;
     position: relative;
-    bottom: 15rem;
-    left: 36rem;
-    height: 15rem;
-    width: 30rem;
+    bottom: 10rem;
+    left: 25rem;
+    height: 10rem;
+    width: 20rem;
+    justify-content: center;
+    align-items: center;
+}
+#JobPortal{
+    border-radius: 2rem;
+    display: flex;
+    background-color: #faebd7;
+    position: relative;
+    bottom: 20rem;
+    left: 48rem;
+    height: 10rem;
+    width: 20rem;
+    justify-content: center;
+    align-items: center;
+}
+#Calculator{
+    border-radius: 2rem;
+    display: flex;
+    background-color: #faebd7;
+    position: relative;
+    bottom: 18rem;
+    left: 2rem;
+    height: 10rem;
+    width: 20rem;
     justify-content: center;
     align-items: center;
 }
 #tic-toc-toe h1{
     position: absolute;
-    bottom: 12rem;
-    left: 7rem;
+    bottom: 8rem;
+    
+    font-size: medium;
 }
 #Currencyconverter h1{
     position: absolute;
-    bottom: 12rem;
+    bottom: 8.5rem;
+    font-size: medium;
+}
+#JobPortal h1{
+    font-size: medium;
+    position: absolute;
+    bottom: 8rem;
+}
+#Calculator h1{
+    font-size: 1rem;
+    position: absolute;
+    bottom: 8rem;
 }
 .more_info{
     height: 25rem;

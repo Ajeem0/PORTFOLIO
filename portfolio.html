@@ -10,19 +10,22 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://unpkg.com/scrollreveal"></script>
 
 </head>
 
 <body>
 
-    <header>
+    <header class="header" id="Header">
 
         <div id="signature"></div>
-        <div class="component">Home</div>
-        <div class="component">About</div>
-        <div class="component">Skill</div>
-        <div class="component">Project</div>
-        <div class="component">Contact</div>
+        <a href="#Header" class="component" style="color: black; text-decoration: none;">Home</a>
+        <a href="#Abouts" class="component" style="color: black; text-decoration: none;">About</a>
+        <a href="#Skills" class="component" style="color: black; text-decoration: none;">Skill</a>
+        <a href="#Projects" class="component" style="color: black; text-decoration: none;">Project</a>
+        <a href="#Contacts" class="component" style="color: black; text-decoration: none;">Contact</a>
+        
+        
         <h1 class="info" id="info1">Hi There, I am Ajeem</h1>
         <br>
         <p class="info" id="info2">let's create something awesome</p>
@@ -37,15 +40,15 @@
         <div id="image"></div>
     </header>
 
-    <div class="About">
+    <div class="About" id="Abouts">
         <h2>About me</h2>
         <div id="slide1"></div>
         <p id="intro">Currently pursuing BTech(CSE) degree from JECRC University.My technical skills include proficiency
-            in Html,Css,Javascript,C++. Also,I have good command of web technologies
+            in Html,Css,Javascript and C++. Also,I have good command of web technologie
         </p>
         <div id="photo"></div>
     </div>
-    <div class="skill">
+    <div class="skill" id="Skills">
         <h3>Technical Skills </h3>
         <div id="slide"></div>
         <div id="Html" class="first">
@@ -80,7 +83,7 @@
             <i>Node.js</i>
         </div>
     </div>
-    <div class="project">
+    <div class="project" id="Projects">
         <h4>Mini-PROJECTS</h4>
         <div id="tic-toc-toe">
             <h1>Tic-Toc-Toe Game</h1>
@@ -96,6 +99,19 @@
             <br>
             Discription:- In this, we can convert currency of one country to currency of another country
         </div>
+        <div id="JobPortal">
+            <h1>Job Portal</h1>
+            Create A Job Portal with the help of MERN Stack 
+            <br>
+            <br>
+            Discription:- In this, Student can aplly for job and also recruiter can add jobes
+        </div>
+        <div id="Calculator">
+            <h1>Calculator</h1>
+            Create A Calculator with the help of basic HTML,CSS and JavaScript 
+            <br>
+            <br>
+            Discription:- It works as same as calculator. </div>
     </div>
 
     <div class="more_info">
@@ -147,7 +163,7 @@
 
     </div>
 
-    <div class="contact">
+    <div class="contact" id="Contacts">
         <div id="name">Contact me</div>
         <p class="my">Name</p>
         <p class="my">Ajeem</p>
@@ -174,6 +190,25 @@
         visit:Ajeem
         <p id="follow">|Follow me &|Add me</p>
     </footer>
+
+    
+        <script>
+    ScrollReveal().reveal('.header', { duration: 2000 });
+    ScrollReveal().reveal('.About', { duration: 4000});
+    ScrollReveal().reveal('.skill', { duration: 6000 });
+    ScrollReveal().reveal('#Html', { duration: 2000 });
+    ScrollReveal().reveal('#Css', { duration: 4000 });
+    ScrollReveal().reveal('#javascript', { duration: 6000 });
+    ScrollReveal().reveal('.first', { duration: 8000 });
+    ScrollReveal().reveal('#first', { duration: 10000 });
+    ScrollReveal().reveal('#second', { duration: 12000 });
+    ScrollReveal().reveal('#third', { duration: 14000 });
+    ScrollReveal().reveal('#fourth', { duration: 16000 });
+    ScrollReveal().reveal('.project', { duration: 8000});
+    ScrollReveal().reveal('.more_info', { duration: 10000 });
+    ScrollReveal().reveal('.contact', { duration: 12000});
+  </script>
+  
 
 </body>
 
